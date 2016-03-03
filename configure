@@ -1,7 +1,8 @@
 #!/bin/bash
     file="package.json"
     if [ -e "$file" ]; then
-       npm test
+      npm install
+      npm test
     echo "File exists"
     else
     echo "File does not exist"
